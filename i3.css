@@ -1,0 +1,40 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif; /* Added a default font for better appearance */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: #f4f4f4; /* Light background for contrast */
+}
+
+.responsive-button {
+    width: 90%;
+    height: 45%; /* Keeping the height as before */
+    margin: 2.5% 0; /* Small margin between buttons */
+    font-size: calc(15px + 7vmin); /* Increased font size for better visibility */
+    cursor: pointer;
+    background-color: #007bff; /* A pleasant blue color for the buttons */
+    color: white; /* White text for better contrast */
+    border: none; /* Removes the default border */
+    border-radius: 20px; /* Rounded corners */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Adding a subtle shadow for depth */
+    transition: background-color 0.3s, box-shadow 0.3s; /* Smooth transition for interactive effects */
+}
+
+.responsive-button:hover {
+    background-color: #0056b3; /* Darker shade of blue on hover for interactive effect */
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3); /* Slightly larger shadow on hover */
+}
+
+h1 {
+    margin-bottom: 10px; /* Spacing between the title and buttons */
+    font-size: calc(18px + 3vmin); /* Responsive and larger font size for the title */
+    color: #333; /* Dark grey color for the text */
+}
